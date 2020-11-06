@@ -39,7 +39,7 @@ namespace SpeechToTextCsharp
                     {
                         Console.WriteLine($"CANCELED: ErrorCode = {cancellation.ErrorCode}");
                         Console.WriteLine($"CANCELED: ErrorDetails = {cancellation.Reason}");
-                        Console.WriteLine($"CANCELED: Did you update the subscription info?");
+                        Console.WriteLine($"CANCELED: Did you update your subscription info?");
                         Console.ReadLine();
 
                     }
